@@ -3,17 +3,17 @@ The dataset is sourced from Kaggle.This project uses a dataset from the UCI Mach
 
 DATASET HIGHLIGHTS
 16 input features: Age, gender, diet, physical activity, water intake, etc.
-Target variable: NObeyesdad (7 obesity level classes)
 Data source: Partially synthetic, partially user-contributed
 
  LEARNING TYPE
- Supervised Learning (Classification)
+ Supervised Learning (Classification),
+ Target variable: NObeyesdad (7 obesity level classes)
 
 ALGORITHMS AND TECHNIQUES
-Random Forest Classifier (baseline model)
-Label Encoding for categorical data
-StandardScaler for feature normalization
-Evaluation: Accuracy, Confusion Matrix, Classification Report
+Random Forest Classifier (baseline model),
+Label Encoding for categorical data,
+StandardScaler for feature normalization,
+Evaluation: Accuracy, Confusion Matrix, Classification Report,
 Add models: XGBoost, SVM, Neural Networks,
 Streamlit dashboard for interactive prediction
 
